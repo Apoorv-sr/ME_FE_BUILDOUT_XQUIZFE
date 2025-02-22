@@ -1,0 +1,24 @@
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(213, 131, 250);
+}
+
+li:hover,
+label:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+}
+
+li {
+    list-style-type: none;
+}
+
+.quiz-container {
+    /* align-items: center; */
+    border: 2px solid black;
+    padding: 1%;
+    background-color: azure;
+
+}
